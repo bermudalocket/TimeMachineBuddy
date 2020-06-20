@@ -14,6 +14,19 @@
 		893908B0249C8AB50012B5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893908AE249C8AB50012B5D7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		893908CB249C8AD70012B5D7 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		893908A2249C8AB20012B5D7 /* TimeMachineBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeMachineBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		893908A5249C8AB20012B5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,12 +97,15 @@
 				8939089E249C8AB20012B5D7 /* Sources */,
 				8939089F249C8AB20012B5D7 /* Frameworks */,
 				893908A0249C8AB20012B5D7 /* Resources */,
+				893908CB249C8AD70012B5D7 /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TimeMachineBuddy;
+			packageProductDependencies = (
+			);
 			productName = TimeMachineBuddy;
 			productReference = 893908A2249C8AB20012B5D7 /* TimeMachineBuddy.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +134,8 @@
 				Base,
 			);
 			mainGroup = 89390899249C8AB20012B5D7;
+			packageReferences = (
+			);
 			productRefGroup = 893908A3249C8AB20012B5D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
